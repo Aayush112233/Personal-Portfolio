@@ -1,0 +1,132 @@
+.box /*Layout for Form*/
+    {
+    background-color: rgb(255, 255, 255);
+    margin-left:27%;
+    margin-right:27%;
+    margin-top: 4%;
+    border-radius: 35px;
+    padding-bottom: 20px;
+    }
+
+.head   
+    {
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 35px 35px 0 0;
+    font-family:cursive;
+    background-color: rgb(67, 138, 114); 
+    background-position: center;
+    background-size: 100%;      
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;          
+    }
+
+.form 
+    {
+    color: rgb(66, 66, 66);    
+    margin-left: 30%;
+    margin-right:33%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    }
+
+.areain /*For Input area*/
+    {
+    background-color: transparent;
+    height: 14px;    
+    outline: none;     
+    border: none;       
+    border-bottom:1px solid rgb(139, 139, 139);    
+    float: right;
+    clear: left;
+    width:180px;
+    text-align: left; 
+    font-family:cursive;
+    font-weight: bold; 
+    }
+
+textarea /*For message box*/
+    {
+    margin-top: 10px;
+    width: 250px;
+    height: 100px;
+    border: none;
+    outline: none;     
+    box-shadow: gray 0 0 10px 0;
+    font-weight: bold;
+    font-family: cursive;    
+    }
+
+.bt /*For submit button*/
+    {
+    border: blanchedalmond;
+    margin-left: 1%;
+    background: rgb(131, 131, 131);
+    border-radius: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-family: 'Trebuchet MS'; 
+    font-family: cursive;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    outline: none;                 
+    }
+
+.bt:hover/*To hover submit button*/
+    {
+    background-color: rgb(44, 44, 44);         
+    }
+
+.table /* For Navigation Bar*/
+    {
+    width: 30%;
+    margin-left: 70%;
+    margin-top: 10px;
+    border-collapse: collapse;   
+    font-family: Arial, Helvetica, sans-serif;  
+    }
+    
+.th
+    {   
+    height: 50px;
+    margin-top: 4px;   
+    }
+
+.td
+    {
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.mainbar
+    {
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+    text-shadow: rgb(255, 255, 255) 0 0 20px;
+    }
+
+.date /*Styling for Date and time*/
+    {
+    text-align: center;
+    color: rgb(58, 58, 58);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    } 
+
+.foot /*For Copyright Policy and Social Media*/
+    {
+    color:azure;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-weight: 600;
+    }
+
+.td:hover /*Hover effect for Navigation Bar*/
+    {    
+    color: rgb(255, 255, 255);
+    }
+        

@@ -1,0 +1,86 @@
+.table  /*CSS for navigation bar*/
+        {
+        width: 30%;
+        margin-left: 69%;
+        margin-top: 9px;    
+        border-collapse: collapse;   
+        font-family: Arial, Helvetica, sans-serif;  
+        }
+
+.th     
+        {   
+        height: 50px;
+        margin-top: 4px;   
+        }
+
+.td
+        {
+        text-decoration: none;
+        color: rgb(199, 199, 199);
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+.mainbar
+        {
+        text-decoration: none;
+        color: rgb(255, 255, 255); 
+        text-shadow: rgb(255, 255, 255) 0 0 20px;
+        }
+
+.td:hover /*Hover effect on the element of navigation bar*/
+        {    
+        color: rgb(255, 255, 255);           
+        }
+
+.Head
+        {
+        color: rgb(255, 239, 194);
+        font-family:cursive;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 3%;
+        padding-bottom: 15%;
+        }
+
+.ref    /*CSS for giving a definite size to the screenshots*/
+        {
+        width:40%;
+        height:auto;
+        margin:30px;
+        box-shadow: 0 0 10px 0 black;
+      
+        }       
+
+.first
+        {      
+        padding-left: 10px;
+        margin-top: -20px;
+        font-family: sans-serif;
+        color: rgb(46, 43, 41);
+        font-weight: 800;        
+        }
+.second
+        {
+        margin-left: 50%; 
+        margin-top: -20px;
+        font-family: sans-serif;
+        color:antiquewhite;
+        font-weight: 800; 
+        }
+.last
+        {
+        margin-left: 17%; 
+        margin-top: -20px;
+        font-family: sans-serif;
+        color: rgb(46, 43, 41);
+        font-weight: 800;   
+        }
+.foot   /*For styling copywrite section*/
+        {
+        color:azure;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+        font-weight: 600;
+        }

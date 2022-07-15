@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>    
+          <meta name="description" content="Contact">
+          <meta name="keywords" content="HTML">
+          <meta name="author" content="Aayush"> 
+          <!--Linking with an external JavaScript-->
+          <script type="text/javascript" src="./JavaScript/contact.js"></script>                   
+          <!--Linking with an external CSS-->
+          <link rel="stylesheet" href="./CSS/style2.css">
+                           
+          <!--Internal CSS-->     
+       <style>         
+            body{ 
+                  background-image:url(./Image/CVBG.jpg);                  
+                  background-size: 100%;  
+                  background-repeat: no-repeat;                                                         
+                }                            
+       </style>           
+    </head>   
+  <body> 
+    <table class="table"> <!--Table for Navigation Bar-->
+      <tbody>
+          <tr class ="nav">
+              <th class="th">
+              <a href="Home.html" class="td">Home</a>
+              </th>
+              <th class="th">
+              <a href="Contact.html" class="mainbar" >Contact</a>
+              </th>
+              <th class="th">
+              <a href="Blog.html" class="td">Blog</a>
+              </th>
+              <th class="th">
+              <a href="research.html" class="td">Research</a>
+              </th>
+          </tr>
+      </tbody>
+      </table>      
+        <div class="box"> 
+            <section class="head"><!--Contact Heading--> 
+              <h1>Contact Us!</h1>
+              <p> Feel free to drop a feedback below.</p> 
+               </section>
+            <section class="form"><!--Main section of form-->
+              <form onsubmit="validation()" name="MessageForm"><!--A buttom that submits the form is created-->
+                <br>
+                 Name:    <input type="text" name="yourname"class="areain" id="N1"><span style="color: red">*</span><br><br>	
+                 Address: <input type="text" name="youraddress" class="areain" ><br><br>
+                 Phone:   <input type="text" name="yourphone" class="areain"><br><br>
+                 E-Mail:  <input type="text" name="youremail" class="areain" id="N1"><span style="color: red">*</span><br><br>
+                 Gender:  <input type="radio" name="gender" value="male" checked> Male 
+				       <input type="radio" name="gender" value="female"> Female <br><br>               
+			       	 <textarea name="feedback"placeholder="Enter Message" required></textarea><br>
+               <input type="submit" value="SEND" class="bt"/>
+              </form>                
+            </section>
+            <h3 class="date" id="d">
+            <!--Internal JavaScript for displaying current date and time-->
+            <script>   
+            function time(){
+            document.getElementById('d').innerHTML=Date();}
+            time()</script></h3>                                
+     </div>   
+     <div class="foot"> Copyright&copy;2021 Aayush Neupane</div> <!--Division for Copyright Policy-->
+  </body>   
+</html>

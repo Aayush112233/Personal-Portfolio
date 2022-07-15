@@ -1,0 +1,135 @@
+
+.table /*Navigation Bar*/
+    {
+    width: 30%;
+    margin-left: 70%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;          
+    }
+
+.th
+    {   
+    height: 40px;   
+    border-radius: 50px;
+    }
+
+.td
+    {
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.h1 
+    {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: rgb(247, 247, 247);    
+    }
+
+.p /*For Introduction paragraph*/
+    {
+    font-family:Helvetica (sans-serif);   
+    color: rgb(247, 247, 247);
+    margin-top: -30px;
+    }
+
+.content /*Position of button*/
+    {    
+    margin-left: 20%; 
+    margin-top: -10px;
+    }
+
+.bt /*CV button*/
+    {
+    border: blanchedalmond;
+    border-radius: 10px;
+    background: crimson;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-family: 'Trebuchet MS';              
+    }
+
+.CVBT /*Text inside the button*/
+    {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-size: 130%;      
+    }
+
+
+.foot /*For Copyright Policy and Social Media*/
+    {         
+    display:flex;
+    position: absolute;
+    bottom:0px;
+    width: 90%;
+    }
+
+.copy 
+    {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;  
+    margin: auto;
+    margin-bottom: 1px;
+    font-weight: 600;  
+    }
+
+.Social /*Social Media Icon size*/
+    {    
+    font-size: 25px;
+    }
+
+.fa-facebook /*Facebook Icon*/
+    {
+    color:rgb(153, 153, 153);
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    }
+
+.fa-instagram /*Instagram Icon*/
+    {
+    text-decoration: none;
+    color:rgb(155, 155, 155);
+    margin-left: 10px;
+    }
+
+.td:hover /*Hover effect for Navigation Bar*/
+    {    
+    color: rgb(255, 255, 255);
+    transition: o.8s ease-out;
+    }
+
+.bt:hover /*For CV button*/
+    {
+    background-color: aquamarine;         
+    }
+
+.CVBT:hover
+    {
+    color: rgb(0, 0, 0);
+    }
+
+.fa-instagram:hover /*To hover instagram icon*/
+    {
+    color: rgb(255, 255, 255);
+    size: 20px;
+    }
+
+.fa-facebook:hover /*To hover facebook icon*/
+    {
+    color: rgb(255, 255, 255);
+    size: 20px;
+    }
+.mainbar /*For current page in the navigation bar*/
+    {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    text-shadow: rgb(255, 255, 255) 0 0 20px;
+    }
+
+
+
+
